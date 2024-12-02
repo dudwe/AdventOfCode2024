@@ -24,7 +24,7 @@ def part_2():
     list after multiplying it by the number of times that number appears in the right list.
 
     """
-    with open("input.txt", "r") as f:
+    with open("test.txt", "r") as f:
         data = [list(map(int, x.split("   "))) for x in f]
         locations_ids_1, locations_ids_2 = zip(*data)
 
