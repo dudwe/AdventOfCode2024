@@ -1,7 +1,3 @@
-import csv
-import csv
-
-
 def read_file(file_name):
     """
     Read file as a 2d array
